@@ -1,9 +1,14 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://localhost:5432/test
     username: postgres
-    password: root
+    password: rAyWMlPeVsAs4Du
   jpa:
     show-sql: true
   flyway:
     locations: "classpath:db/migration"
+
+
+kafka:
+  bootstrap-url: localhost:9095
+  group-id: group1
